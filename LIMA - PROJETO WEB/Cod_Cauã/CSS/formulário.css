@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(/Projeto/Imagens/fnd.png);
+}
+/*logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+/*quadrado*/
+.hi{
+    margin-top: 50px;
+    margin-left: 370px;
+    width: 650px;
+    height: 400px;
+    background-color: rgba(131, 131, 131, 0.699);
+    border-radius: 15px;
+}
+/*linha*/
+.li{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.esp{
+    margin-left: 10px;
+}
+.oo{
+    margin-top: 5px;
+    margin-left: 275px;
+}
+.pp{
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    width: 85px;
+    height: 25px;
+    border-radius: 15px;
+}
+.bb{
+    border-radius: 25px;
+    margin-top: 5px;
+}

@@ -1,0 +1,13 @@
+body{
+    background-image: url(img5/dd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    width: 100%;
+    height: 1000px;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(/Projeto/Imagens/2112.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fundo{
+        height: 733px;
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0),rgb(250, 120, 120));
+}
+/*logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*login*/
+.qua{
+    background-color: rgba(255, 255, 255, 0.655);
+    width: 370px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: 515px;
+}
+.email{
+    background-color: rgba(255, 77, 77, 0.533);
+    margin-left: 9px;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 350px;
+}
+.text{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.text2{
+    margin-left: 95px;
+    margin-top: 65px;
+}
+.bot{
+    color: whitesmoke;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 120px;
+}

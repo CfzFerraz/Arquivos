@@ -1,0 +1,72 @@
+
+/*link não visitado*/
+a:link{
+    color: rgb(255, 0, 0);
+}
+
+/*link visitado*/
+a:visited{
+    color: #4719e0;
+}
+
+/*mouse sobre o link*/
+a:hover{
+    color: #0006a5;
+}
+
+/*link selecionado*/
+a:active{
+    color: #ff7300;
+}
+
+/*primeiro <p> de um elemento*/
+p:first-child{
+    color: #0000FF;
+}
+
+/*primeiro <i> de todos <p>*/
+p> i:first-child{
+    color: #0000FF;
+}
+
+/*todos <i>do primeiro <p>*/
+p:first-child{
+    color: #0000FF;
+}
+
+/*qualquer <input> com foco*/
+input:focus{
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

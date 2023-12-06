@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(/Projeto/Imagens/fnd.png);
+}
+/*logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+/*quadrado*/
+.hi{
+    margin-top: 50px;
+    margin-left: 370px;
+    width: 650px;
+    height: 800px;
+    background-color: rgba(131, 131, 131, 0.699);
+    border-radius: 15px;
+}
+/*linha*/
+.li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    margin-top: 50px;
+}
+p{
+    margin-top: 90px;
+}
+h2{
+    color: whitesmoke;
+    font-family: Milonga, cursive;
+    margin-top: 32px;
+    margin-left: 225px;
+}
+h3{
+    font-family: Milonga, cursive;
+    margin-top: 25px;
+    margin-left: 25px;
+}

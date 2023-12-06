@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+.fundo{
+        height: 665px;
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0),rgb(255, 66, 66), rgb(255, 165, 165));
+}
+/*logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*informações*/
+.sobre{
+    background-color: rgba(245, 245, 245, 0.436);
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 400px;
+    line-height: 20px;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8px;
+}

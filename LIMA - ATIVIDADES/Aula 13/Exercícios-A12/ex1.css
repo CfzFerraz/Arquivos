@@ -1,0 +1,22 @@
+.body{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: 3px outset rgb(9, 89, 107);
+    width: 50.5%;
+}
+div.caixaum{
+    color: white;
+    background-color: gray;
+    border: 3px dotted white;
+    text-align: center;
+    width: 50%;
+    padding-top: 50px;
+}

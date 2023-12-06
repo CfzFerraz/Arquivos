@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style1.css">
+    <title>ex2</title>
+</head>
+<body onload="loadFunction()">
+    Nome: <input type="text" id="myInput"
+    onblur="blurFunction()">
+    <p>Modificar o texto</p>
+    Entre com o texto: <input type="txt" nome="txt" value="OI" onchange="myFunction(this.value)">
+
+    <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">
+    Ao pressionar o mouse sobre esse texto,
+    o valor da propriedade da cor vai ser alterada.</p>
+    <div onmouseover="coordenadasFigura(event)"
+    onmouseout="clearCoor()">
+        <img class="tamanho" src="img/s4.png">
+    </div>
+    <p id="demo3"></p>
+    <script src="JS/script2.js"></script>
+</body>
+</html>

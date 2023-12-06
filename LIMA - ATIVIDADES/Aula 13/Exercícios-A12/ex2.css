@@ -1,0 +1,21 @@
+.fundo{
+    background-color: burlywood;
+}
+
+.f2{
+    text-align: center;
+    color: whitesmoke;
+    font-size: medium;
+}
+
+p.f4{
+color: whitesmoke;
+width: -1px;
+border:10px double whitesmoke;
+}
+
+#bb{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

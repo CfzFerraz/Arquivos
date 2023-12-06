@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cliníca veterinária</h1>
+    <br><label>Valor da vacina:
+    <input type="text" id="val" value="" size="10";><br>
+    <h3>Tem plano para o animal?</h3>
+    <form>
+        <input type="radio" id="sim" value="" name="s" onclick="promocao()">
+        <label for="sim">Sim (Animal planet)</label><!--uma legenda para o input-->
+        <br>
+        <input type="radio" id="sim" value="" name="s" onclick="promocao2()">
+        <label for="sim">Sim (vida pet)</label><!--uma legenda para o input-->
+        <br>
+        <input type="radio" id="não" value="" name="s" onclick="promocao3()">
+        <label for="não">Não</label><!--uma legenda para o input-->
+        <br>
+        <p id="b2"></p><!--Texto para mostrar a % do desconto-->
+        <p id="b1"></p><!--Resultado da conta-->
+    <input type="submit" onclick="fim()"><!--Botão para enviar o formulário-->
+    </form>
+        <script src="ex2_g1.js"></script>
+    </label><br>
+</body>
+</html>

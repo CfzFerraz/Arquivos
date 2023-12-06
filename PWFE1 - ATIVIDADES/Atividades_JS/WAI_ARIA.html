@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="menuButton">Menu</button>
+    <div id="menu" aria-hidden="true">
+ 
+        <select name="menu">
+            <option value="produto1">Blusas</option>
+            <option value="produto2">Calças</option>
+            <option value="produto3">Shorts</option>
+ 
+        </select>
+   
+   
+    </div>
+    <style>
+        #menuButton[aria-expanded = "true"] ::after{
+            content: "+";     
+        }
+        #menuButton[aria-expanded = "false"] ::after{
+            content: "-";
+        }
+        
+        #menu[aria-hidden = "true"] {
+            display: none;
+        }
+
+        #menu[aria-hidden = "false"] {
+            display: block;
+        }
+    </style>
+    <script>
+        const menuButton = document.getElementById("menuButton");
+        const menu = document.getElementById("menu");
+        menuButton.addEventListener("click", () =>{
+            const expand = menuButton.getAttribute("aria-expanded") === "true";
+            menuButton.setAttribute("aria-expanded", !expand);
+            menu.setAttribute("aria-hidden", expand);
+        });
+    </script>
+</body>
+</html>

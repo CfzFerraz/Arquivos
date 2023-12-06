@@ -1,0 +1,33 @@
+body{
+    border:2px solid black;
+    text-align: center;
+}
+p{
+    text-align:left;
+}
+#botao{
+    position: absolute;
+    left:620px;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    margin:0px;
+    padding:0px;
+    background-color: green;
+    border-radius:5px ;
+    display: block;
+    
+    
+}
+#botao2{
+    position:relative;
+    left:695px;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    margin:0px;
+    padding:0px;
+    background-color:red;
+    border-radius:5px ;
+    display: block;
+}

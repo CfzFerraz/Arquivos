@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="ex8.css">
+</head>
+<body>
+    
+    <p>Form Name</p> 
+    <hr><br>
+    <form>
+        Nome:<input type="text"name="fname"><br><br><br>
+        Data de nascimento:<input type="text"name="fname"><br><br><br>
+        Endereço:<input type="text"name="fname"><br><br><br>
+        Nro: <input type="text"name="fname"><br><br><br>
+        Cidade:<input type="text"name="fname"><br><br><br>
+        Estado:<select name="estados">
+            <option selected="" value="">Selecione o Estado (UF)</option>
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+        </select><br><br><br>
+
+         Sexo:<select name="sexo">
+            <option selected="" value="">Selecione o sexo</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Outros">Outros</option>
+            <option value="Prefiro não dizer">Prefiro não dizer</option>
+         </select><br><br><br>
+         
+            Bens Pessoais:<br>
+            <input type="checkbox" name="Casa" value="Casa">Casa<br>
+            <input type="checkbox"name="Carro" value="Carro">Carro<br>
+            <input type="checkbox"name="Moto" value="Moto"> Moto<br>
+        <br>
+         Text Area<br>
+         <textarea name="opiniao" rows="5" cols="40">
+            Experiências pessoais:
+        </textarea> <br>
+        <input type="submit" value="Enviar" id="botao">
+        <input type="reset" value="Limpar" id="botao2"><br><br>
+    </form>
+    
+
+</body>
+</html>

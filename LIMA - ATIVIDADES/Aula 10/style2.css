@@ -1,0 +1,10 @@
+#cabecalho{
+    text-align: center;
+    color: rgb(0, 234, 255);
+    background-image: url(Img2/rr.png);
+    background-size: 10%100%;}
+body{
+    background-image: url(Img2/rr.png);
+    background-repeat: no-repeat;
+    background-size:cover
+}

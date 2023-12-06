@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+#caixa{
+    background-color: whitesmoke;
+    width: 99.3%;
+    padding: 5px;
+    height:30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pesquisa{
+    border-radius: 30px;
+    border: solid 2px;
+    width: 450px;
+    padding: 2px;
+    text-align: center;
+}
+.fundo{
+    height: 830px;
+    background-image: linear-gradient(to bottom, rgb(181, 99, 236),rgb(102, 159, 244));
+}
+p{
+    color: whitesmoke;
+}
+h1{
+    color: black;
+    font-family: Milonga, cursive;
+}
+#scs{
+    border-radius: 50%;
+    width: 125px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgb(90, 185, 244),rgb(179, 50, 244));
+}
+#meio{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.mei{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+#sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 8px;
+}
+.sub{
+    background-color: rgb(77, 252, 252);
+    width: 125px;
+    padding: 2px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+   
+}
+/*formas*/
+
+#ff{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(255, 234, 0), rgba(255, 255, 255, 0.171));
+    margin-left: 320px;
+    margin-top: -85px;
+    position: relative;
+    z-index: -1;
+}
+#gg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0, 229, 255, 0.58), rgba(162, 52, 241, 0.715));
+    margin-right: 220px;
+    margin-top: 1px;
+    position: relative;
+    z-index: -1;
+}
+/*linhas*/
+.bb{
+    border: 1.3px solid rgb(0, 255, 238);
+    width: 1220px;
+    margin-left: 2.3cm;
+    margin-top: 15px;
+}
+.r34{
+    border: 1.3px solid rgb(75, 14, 105);
+    width: 1220px;
+    margin-left: 2.5cm;
+    margin-top: 3px;
+    position: absolute;
+}
+#endd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 195px;
+}
+.text0{
+    color: black;
+    font-size: small;
+}
+.cfzz{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.cx{
+    text-align: center;
+    width: 125px;
+    height: 15px;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+#qua{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: whitesmoke;
+    margin-left: 320px;
+    margin-top: -250px;
+    text-align: center;
+}
+.pre{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 346px;
+    margin-top: -20px;
+}
+.text5{
+    color: black;
+    font-size: small;
+    font-family: Milonga, cursive;
+    text-align: center;
+}
+#qua1{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: whitesmoke;
+    margin-left: 620px;
+    margin-top: -128px;
+    text-align: center;
+}
+.pre1{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 650px;
+    margin-top: -20px;
+}
+#qua2{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    margin-left: 920px;
+    margin-top: -130px;
+    text-align: center;
+}
+.pre2{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 950px;
+    margin-top: -20px;
+}
+#qua3{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    margin-left: 320px;
+    margin-top: 50px;
+    text-align: center;
+}
+.pre3{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 346px;
+    margin-top: -20px;
+}
+#qua4{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: whitesmoke;
+    margin-left: 620px;
+    margin-top: -130px;
+    text-align: center;
+}
+.pre4{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 650px;
+    margin-top: -20px;
+}
+#qua5{
+    border-radius: 15px;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    margin-left: 920px;
+    margin-top: -128px;
+    text-align: center;
+}
+.pre5{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(248, 153, 85);
+    margin-left: 950px;
+    margin-top: -20px;
+}

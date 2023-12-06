@@ -1,0 +1,16 @@
+p{font-size: 21pt;}
+p::first-line{color: blue;font-variant: small-caps;}
+
+h3::before{
+    content: url(Img2/ss.png);
+}
+h3::after{content: url(Img2/ss.png);}
+
+p::selection{
+    color: red;
+    background: yellow;}
+div{
+    background-image: url(Img2/rr.png);
+    background-repeat:no-repeat;
+    background-position: right top;
+}

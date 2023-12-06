@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+/*fundo*/
+.fundo{
+    background-image: url(/Projeto/Imagens/fnd.png);
+}
+/*cabeçalho*/
+#cabecalho{
+    background-color: rgb(255, 0, 0);
+    width: 98.55%;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    margin-top: -20px;
+}
+#inf{
+    margin-top:-5px ;
+}
+#inf2{
+    margin-top:-23px ;
+}
+.pesquisa{
+    border-radius: 30px;
+    border: solid 2px;
+    width: 400px;
+    padding: 2px;
+    text-align: center;
+}
+/*imagem*/
+.cfz{
+    margin-top: 97px;
+    margin-left: 70px;
+}
+/*reseumo*/
+.te{
+    display: flex;
+    flex-direction: row;
+}
+.qu{
+    width: 500px;
+    height: 410px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 125px;
+    margin-left: 240px;
+    border-radius: 25px;
+    border: 2px rgb(6, 33, 78) solid;
+}
+.texto{
+    margin-left: 35px;
+}
+.si{
+    margin-top: 8px;
+    margin-left: 15px;
+    line-height: 25px;
+}
+/*botão*/
+.bo{
+    color: whitesmoke;
+    width: 90px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+
+}
+.dis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}

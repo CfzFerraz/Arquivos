@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(/Projeto/Imagens/fnd.png);
+}
+/*cabeçalho*/
+#cabecalho{
+    background-color: rgb(255, 0, 0);
+    width: 98.55%;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    margin-top: -20px;
+}
+#inf{
+    margin-top:-5px ;
+}
+#inf2{
+    margin-top:-23px ;
+}
+
+.pesquisa{
+    border-radius: 30px;
+    border: solid 2px;
+    width: 400px;
+    padding: 2px;
+    text-align: center;
+}
+.usu{
+    margin-top:-7px ;
+}
+/*Livros recomendados parte 1*/
+.ti{
+    margin-top: 65px;
+    margin-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.liv{
+    margin-top: 35px;
+    margin-left: 120px;
+}
+.l2{
+    margin-left: 150px;
+}

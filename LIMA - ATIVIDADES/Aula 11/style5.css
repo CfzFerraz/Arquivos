@@ -1,0 +1,19 @@
+img.esquerda{
+    float: left;
+    margin-right: 1.5cm;
+}
+img.direita{
+    float: right;
+    margin-left: 1.5cm;
+}
+img.center{
+    float: inherit;
+    margin-inline: 600px;
+}
+h1.semflutuação{
+    clear: both;
+    text-align: center;
+}
+p.esq{
+    text-align: right;
+}
